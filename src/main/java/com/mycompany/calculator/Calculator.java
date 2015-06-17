@@ -6,8 +6,15 @@ package com.mycompany.calculator;
  * Created by pandian on 6/17/15.
  */
 public class Calculator implements MathTool {
+    public Double performOperation(char operation, Double value) {
+        return null;
+    }
 
-    Double calculatorMathSummary = 0.0;
+    public Double reset() {
+        return null;
+    }
+
+    /*Double calculatorMathSummary = 0.0;
 
     @Override
     public Double performOperation(char operation, Double value) {
@@ -30,5 +37,5 @@ public class Calculator implements MathTool {
     public Double reset() {
         calculatorMathSummary = 0.0;
         return calculatorMathSummary;
-    }
+    }*/
 }
