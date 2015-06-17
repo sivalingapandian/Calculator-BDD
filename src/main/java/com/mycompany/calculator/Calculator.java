@@ -28,6 +28,7 @@ public class Calculator implements MathTool {
 
     @Override
     public Double reset() {
-        return null;
+        calculatorMathSummary = 0.0;
+        return calculatorMathSummary;
     }
 }
